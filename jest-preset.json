@@ -12,7 +12,7 @@
   },
   "moduleNameMapper": {
     "^image![a-zA-Z0-9$_-]+$": "GlobalImageStub",
-    "^[./a-zA-Z0-9$_-]+\\.(bmp|gif|jpg|jpeg|png|psd|svg|webp)$": "RelativeImageStub"
+    "^[./a-zA-Z0-9$_-]+\\.(bmp|gif|jpg|jpeg|png|psd|svg|webp|ttf|mp4|obj)$": "RelativeImageStub"
   },
   "modulePathIgnorePatterns": [
     "<rootDir>/node_modules/react-native/Libraries/react-native/",
