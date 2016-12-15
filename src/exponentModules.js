@@ -2,6 +2,7 @@
 
 module.exports = [
   {"ExponentAppLoadingManager":[{"finishedAsync":"function"}]},
+  {"ExponentAccelerometer":[{"addListener":"function"},{"removeAllListeners":"function"},{"setUpdateInterval":"function"}]},
   {"ExponentBlurViewManager":[]},
   {"ExponentContacts":[{"getContactsAsync":"function"}]},
   {"ExponentFingerprint":[{"hasHardwareAsync":"function"},{"isEnrolledAsync":"function"},{"authenticateAsync":"function"}]},
