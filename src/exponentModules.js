@@ -7,6 +7,7 @@ module.exports = [
   {"ExponentContacts":[{"getContactsAsync":"function"}]},
   {"ExponentFingerprint":[{"hasHardwareAsync":"function"},{"isEnrolledAsync":"function"},{"authenticateAsync":"function"}]},
   {"ExponentFontLoader":[{"loadAsync":"function"}]},
+  {"ExponentGyroscope":[{"addListener":"function"},{"removeAllListeners":"function"},{"setUpdateInterval":"function"}]},
   {"ExponentLinearGradientManager":[]},
   {"ExponentVideoManager":[{"ScaleToFill":"string"},{"ScaleAspectFill":"string"},{"ScaleAspectFit":"string"},{"ScaleNone":"string"}]},
   {"ExponentNotifications":[{"getExponentPushTokenAsync":"function"}]},
